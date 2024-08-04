@@ -1,0 +1,7 @@
+version: '1.0'
+services:
+  web :
+    image: ustavgohel/todo-app:latest
+    ports:
+        - "8000:8000"
+  
